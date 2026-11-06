@@ -1,64 +1,78 @@
-# Lead Software Engineer & AI Architect
+# Alexander | Python & Automation Engineer
 
-Resilient backend architecture, high-throughput asynchronous bot ecosystems, and autonomous AI orchestration.
+[Українська версія](README_UA.md) | [Русская версия](README_RU.md)
 
----
-
-### Executive Profile
-
-Senior engineering specialist delivering mission-critical systems with an uncompromising focus on **Defensive Programming**, **10x scalability headroom**, and deterministic reliability. Experienced in architecting production-grade asynchronous services, high-load Telegram infrastructure, and agentic workflows integrated with the Model Context Protocol (MCP) and Antigravity.
-
-Every system is engineered from day one to withstand volatile traffic spikes, enforce strict failure boundaries, and guarantee transactional integrity under adversarial or extreme real-world conditions.
-
----
-
-### Core Engineering Focus
-
-* **Defensive Programming & Fault Tolerance**  
-  Zero-trust boundary validation, proactive circuit breakers, self-healing retries with jittered backoff, and graceful degradation strategies that keep mission-critical workflows operational 24/7.
-
-* **10x Headroom Scalability**  
-  Architecting beyond immediate load parameters. Leveraging non-blocking I/O, lean memory footprints, connection pooling, and optimized execution paths designed to handle ten-fold traffic surges without architectural refactoring.
-
-* **High-Throughput Asynchronous Bots**  
-  Enterprise-grade bot infrastructure built with **aiogram 3.x**, featuring distributed webhooks, stateful FSM pipelines, real-time event dispatching, and sub-millisecond dispatch cycles.
-
-* **Autonomous AI & Agentic Tooling**  
-  End-to-end integration of agentic reasoning loops, custom **Model Context Protocol (MCP)** servers, and **Antigravity** workflows for intelligent enterprise automation, tool-use execution, and structured generation.
-
-* **High-Efficiency Persistence**  
-  High-performance data access layers utilizing **SQLite in Write-Ahead Logging (WAL)** mode—maximizing concurrent read/write throughput, eliminating database locking bottlenecks, and delivering sub-millisecond query performance with near-zero operational overhead.
+[![Telegram](https://img.shields.io/badge/Telegram-@Blacksamurai1312-2CA5E0?style=flat&logo=telegram)](https://t.me/Blacksamurai1312)
+[![Freelancehunt](https://img.shields.io/badge/Freelancehunt-Profile-007ACC?style=flat)](https://freelancehunt.com/freelancer/Blacksamurai1312.html)
+[![GitHub](https://img.shields.io/badge/GitHub-ecksecoder-181717?style=flat&logo=github)](https://github.com/ecksecoder)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat&logo=python)](https://www.python.org/)
+[![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat)](https://docs.aiogram.dev/)
+[![SQLite](https://img.shields.io/badge/SQLite-WAL%20Mode-003B57?style=flat&logo=sqlite)](https://www.sqlite.org/wal.html)
 
 ---
 
-### Tech Stack & Core Competencies
+## Overview
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Languages & Core** | Python 3 (3.10+ / 3.12), Modern Asynchronous Runtime (`asyncio`), Static Typing (`mypy`), Pydantic V2 |
-| **Bot Systems** | `aiogram 3.x`, High-Frequency Webhooks, FSM Architecture, Telegram Bot API |
-| **Persistence & Storage** | SQLite (WAL Mode, PRAGMA tuning, `aiosqlite`), PostgreSQL, Redis Cache & Queues |
-| **AI & Agentic Systems** | Model Context Protocol (MCP), Google Antigravity, Tool Use & Function Calling, LLM Pipelines |
-| **Architecture & Reliability** | Defensive Architecture, Event-Driven Design, Asynchronous Microservices, Rate-Limiting & Backpressure |
-| **DevOps & Infrastructure** | Docker, Docker Compose, Linux / Systemd, CI/CD Automation, Structured Observability & Telemetry |
+Software engineer specializing in high-throughput asynchronous backend systems, Telegram bot ecosystems (aiogram 3.x), resilient web scraping pipelines, and autonomous AI integrations. Engineering approach centers on defensive programming, zero-downtime reliability, non-blocking asynchronous architectures, and deterministic data handling under volatile real-world traffic.
+
+Key competencies include end-to-end bot development with stateful Finite State Machines (FSM), real-time Google Sheets two-way synchronization, multi-provider LLM failover routers (Google Gemini, Groq), content ingestion pipelines (documents, RSS, audio), and high-efficiency persistence using SQLite in Write-Ahead Logging (WAL) mode.
 
 ---
 
-### Engineering Philosophy
+## Featured Solutions
 
-> **"Build defensively, scale proactively, and never let I/O block the event loop."**
-
-1. **Deterministic Contracts**: Strict data modeling and validation at every boundary. No implicit assumptions.
-2. **Minimal Operational Overhead**: Choose the right tool for the job. Optimized SQLite in WAL mode frequently outperforms heavy external DBMS clusters for targeted high-speed transactional footprints.
-3. **Agent-Ready Architecture**: Decoupling services into clean, discoverable protocols (MCP) that can be orchestrated by autonomous agents as readily as by human operators.
+| Solution | Technology Stack | Core Architecture & Features | Production Capabilities |
+| :--- | :--- | :--- | :--- |
+| **[LeadGen & Booking Bot](https://github.com/ecksecoder/leadgen-booking-bot)** | Python 3.11+, aiogram 3.x, SQLite (WAL mode), Google Sheets API (gspread), Docker | Structured lead intake via FSM, context triage scoring (URGENT_VIP, PRICE_INQUIRY, LOW_PRIORITY, STANDARD), in-Telegram manager micro-CRM, two-way Google Sheets row synchronization, trilingual client UI (en/uk/ru). | Automated lead qualification, SLA routing, dynamic localized CRM cards, real-time spreadsheet updates. |
+| **[AI Deal & Lead Radar](https://github.com/ecksecoder/AI-Deal-Lead-Radar)** | Python 3.10+, aiogram 3.x, aiohttp, BeautifulSoup4, feedparser, Google Gemini API, SQLite WAL | Asynchronous background polling worker, SHA-256 fingerprint deduplication, heuristic and neural relevance scoring, anti-SSRF validation, subscriber-isolated localized push alerts, Excel-compatible UTF-8 BOM CSV exports. | 24/7 opportunity aggregation, zero-duplicate intake, multi-channel RSS/HTML scraping, dynamic reporting. |
+| **[TG Content Summarizer](https://github.com/ecksecoder/tg-summarizer-bot)** | Python 3.10+, aiogram 3.x, Google GenAI SDK, Groq Cloud API, SQLite WAL, pypdf, python-docx | Universal cross-lingual synthesis hub, local document extraction (PDF, DOCX, TXT), audio ingestion via GenAI File API, Gemini Flash key-rotation with Groq llama-3.3-70b failover, priority task queue, sliding-window raw storage hygiene. | Multi-tier executive summaries, multilingual document synthesis, quota-exhaustion fallback, safe web parsing. |
 
 ---
 
-### Commercial Engagement & Collaboration
+## Featured Repositories
 
-Available for high-stakes commercial development, architectural advisory, and contract engagements:
-- Greenfield development of high-load asynchronous bot networks and microservices.
-- Integration of custom MCP servers and agentic workflows into existing business pipelines.
-- Performance auditing, stress testing, and refactoring for 10x scalability and defensive resilience.
+* **[leadgen-booking-bot](https://github.com/ecksecoder/leadgen-booking-bot)**  
+  Production-ready LeadGen and Booking Telegram Bot built with aiogram 3.x, SQLite (WAL mode), FSM, context triage, and Google Sheets bidirectional synchronization.
 
-📫 **Get in Touch**: [GitHub](https://github.com/ecksecoder) • Commercial inquiries welcome.
+* **[AI-Deal-Lead-Radar](https://github.com/ecksecoder/AI-Deal-Lead-Radar)**  
+  Production-grade asynchronous deal monitoring, lead ingestion, and neural relevance scoring system for freelance platforms, procurement portals, and B2B aggregators.
+
+* **[tg-summarizer-bot](https://github.com/ecksecoder/tg-summarizer-bot)**  
+  Production-ready Telegram AI Bot for summarizing channel posts, news feeds, documents, audio, and web articles with Google Gemini API, Groq failover, aiogram 3.x, and SQLite.
+
+---
+
+## Commercial Services
+
+* **Custom Telegram Bot Ecosystems**  
+  Architecting high-load bots using aiogram 3.x, resilient webhook dispatchers, multi-step FSM intake flows, role-based access control (RBAC), and interactive inline management dashboards.
+
+* **Workflow Automation & Third-Party Integrations**  
+  Synchronizing bots with external platforms, Google Sheets API v4, CRM systems, payment gateways, and custom REST APIs with guaranteed idempotency and error recovery.
+
+* **AI & LLM Integration**  
+  Deploying multi-model LLM pipelines using Google Gemini and Groq, prompt orchestration, cross-lingual translation, automated content synthesis, and semantic lead scoring.
+
+* **Data Scraping & Ingestion Infrastructure**  
+  Building high-throughput non-blocking parsers (aiohttp, BeautifulSoup4, feedparser) equipped with anti-SSRF protection, content hashing deduplication, and automated reporting (CSV/Excel).
+
+* **Architectural Audits & Optimization**  
+  Refactoring existing Python applications to resolve event-loop blocking, implementing SQLite WAL tuning, configuring thread pools for heavy I/O, and containerizing systems with Docker Compose.
+
+---
+
+## Engineering Standards
+
+* **Defensive Programming**: Zero-trust data boundaries, strict type checking with mypy, Pydantic data schemas, circuit breakers, exponential backoff with jitter, and graceful degradation during external API outages.
+* **Non-Blocking Asynchronous Runtime**: Strict avoidance of blocking calls inside the asyncio event loop. File I/O and synchronous library operations are isolated via thread pools (`asyncio.to_thread`).
+* **High-Efficiency Persistence**: SQLite configured with Write-Ahead Logging (`PRAGMA journal_mode=WAL`), `PRAGMA synchronous=NORMAL`, and busy timeout handling, delivering high concurrent throughput with near-zero resource overhead.
+* **Native Multilingual Architecture**: Comprehensive localization (English, Ukrainian, Russian) with clean decoupling between client-facing interfaces and administrative CRM controls.
+* **Production Observability & Deployment**: Structured multi-level logging, robust error tracking, environment variable configuration (.env), and repeatable Docker Compose deployments.
+
+---
+
+## Contacts
+
+* Telegram: [@Blacksamurai1312](https://t.me/Blacksamurai1312)
+* Freelancehunt: [freelancehunt.com/freelancer/Blacksamurai1312.html](https://freelancehunt.com/freelancer/Blacksamurai1312.html)
+* GitHub: [github.com/ecksecoder](https://github.com/ecksecoder)
